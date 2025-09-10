@@ -12,7 +12,7 @@ class BottomNavCubit extends Cubit<BottomNav> {
   void changeIndex(int index) => emit(BottomNav.values[index]);
 }
 
-extension bottomNavX on BottomNav {
+extension BottomNavX on BottomNav {
   String get icon {
     switch(this) {
       case BottomNav.home:
