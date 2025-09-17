@@ -37,6 +37,10 @@ dependencies:
   go_router: ^16.2.1
   flutter_svg: ^2.2.1
   flutter_bloc: ^9.1.1
+  freezed_annotation: ^3.1.0
+  json_annotation: ^4.9.0
+  retrofit: ^4.7.2
+  dio: ^5.9.0
 
 
 dev_dependencies:
@@ -49,6 +53,10 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^5.0.0
+  freezed: ^3.2.3
+  build_runner: ^2.8.0
+  json_serializable: ^6.11.1
+  retrofit_generator: ^10.0.5
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
